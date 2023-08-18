@@ -4,13 +4,13 @@ This project has propose to show a portfolio to displays the profile image, name
 
 ## TOTAL PROJECT HOUR: 7 hours 
 
-**WARNING**
+#### WARNING ####
 
-* * Currently to request Tweets you need a level Basic into API * *
+* Currently to request Tweets you need a level Basic into API 
 
 for demonstration purposes a fake list has been included to demonstrate how tweets work when it is not possible to connect with the API
 
-###Prerequisites
+## 1 - Prerequisites
 
 ```
 
@@ -20,12 +20,13 @@ Netbeans 17+
 
 ```
 
-###Steps to build the app
+## 2 - Steps to build the app
 
 This project was developed in Netbeans IDE, however it can be compiled in any IDE with maven support
 After construction, a .jar file will be generated that will have all the files needed to run the application.
 
-```
+-----------------------------------
+
 
 - To use Tweets list configure api access into file **application.properties** in /src/main/resources/
 Remember, currently you need a Basic access in the API to request tweets set the fields into file .properties:
@@ -33,19 +34,27 @@ Remember, currently you need a Basic access in the API to request tweets set the
 ```
 
 twitter.clientID=YOUR_CLIENT_ID
+
 twitter.clientSecret=YOUR_SECRET_ID
+
 twitter.accessToken=YOUR_ACCESS_TOKEN
+
 twitter.refreshToken=YOUR_REFRESH_TOKEN
 
 ```
+
+-----------------------------------
 
 - Set Database in application.properties, set the fields below into file .properties: (used database as requested, using **zemoga_challenge_db** and  **portfolio** table)
 
 ```
 
 spring.datasource.url=jdbc:mysql://SERVER:PORT/DATABASE
+
 spring.datasource.username=USERDB
+
 spring.datasource.password=PASS_DB
+
 
 ```
 
@@ -59,10 +68,10 @@ PASS_DB - password to access DB
 
 - To access open your navigator the URL: http://localhost:8080/
 
-```
+-----------------------------------
 
 
-###API REST
+### 3 - API REST
 
 There are two endpoins
 
@@ -88,10 +97,12 @@ Body content:
 ```
 
 description - Text about experience
+
 imageUrl - A string url to set image 
+
 fullname - Full name of the person
 
-###Technologies
+### 4 - Technologies
 
 ```
 
@@ -108,12 +119,13 @@ AdminLTE 3.1.0 (front UI)
 
 ```
 
-###Database test
+### 5 - Database test
 
 ‣ Table: portfolio
+
 ‣ Database: zemoga_challenge_db
 
-###Unit Tests
+### 6 - Unit Tests
 
 - Test Get Portfolio
 - Test Get Portfolio Nonexistent
