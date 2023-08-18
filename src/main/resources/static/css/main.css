@@ -1,0 +1,31 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+h1{
+	color:#0000FF;
+}
+
+h2{
+	color:#FF0000;
+}
+
+.logo-text{
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.menu-option-title{
+    color: #ffffff;
+    font-size: 1.20rem;
+    padding: 0.5rem; 
+}
+
+.menu-bg{
+    background-color: #0066cc;
+    padding: 0.5rem; 
+}
