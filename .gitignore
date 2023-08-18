@@ -4,6 +4,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+* linguist-vendored
+*.js linguist-vendored=false
+
 ### STS ###
 .apt_generated
 .classpath
@@ -31,4 +34,3 @@ build/
 
 ### VS Code ###
 .vscode/
-static/* linguist-vendored
