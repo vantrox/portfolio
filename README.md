@@ -100,7 +100,7 @@ description - Text about experience
 
 imageUrl - A string url to set image 
 
-fullname - Full name of the person
+title - Full name of the person
 
 ### 4 - Technologies
 
