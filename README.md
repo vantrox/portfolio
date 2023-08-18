@@ -91,7 +91,7 @@ Body content:
 {
     "description":"new description",
     "imageUrl":"http://new.image.url",
-    "fullName":"new Title"
+    "title":"new Title"
 }
 
 ```
